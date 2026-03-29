@@ -1,0 +1,23 @@
+{
+  "repo": "Deepak12159/Js_tutes",
+  "mode": "realistic",
+  "commitsPerDay": {
+    "steady": 1,
+    "burst": { "min": 3, "max": 8 },
+    "realistic": { "min": 0, "max": 5, "weights": [10, 30, 25, 20, 10, 5] }
+  },
+  "targetFiles": [
+    "changelog.md",
+    "data/activity-log.json",
+    "notes/daily.md"
+  ],
+  "commitMessages": [
+    "chore: update activity log",
+    "docs: daily notes sync",
+    "chore: routine maintenance"
+  ],
+  "devNotes": [
+    "Reviewed async patterns today.",
+    "Explored new tooling options."
+  ]
+}
